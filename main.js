@@ -1,6 +1,6 @@
 function telephaty(){
     navigator.mediaDevices.getUserMedia({audio:true});
-    classifier=ml5.soundClassifier('https://teachablemachine.withgoogle.com/models/pvh-n3ELJ/',modelReady);
+    classifier=ml5.soundClassifier('https://teachablemachine.withgoogle.com/models/2ElC-MgK2/model.json',modelReady);
 
    
 }
